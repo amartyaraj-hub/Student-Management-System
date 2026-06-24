@@ -46,7 +46,7 @@ app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 
 // Root Route
 app.get('/', (req, res) => {
-  res.json({ message: 'Welcome to the Student Management System API' });
+  res.json({ message: 'Welcome to the Student Management Systems API' });
 });
 
 // API Routes
